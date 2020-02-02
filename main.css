@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+.heading img{
+    float: left;
+}
+.heading h2{
+    padding-left: 130px;
+    padding-top: 5px;
+    font-size: 40px;
+    font-style: italic;
+    color: orange;
+   text-shadow:  2px 2px 2px  #000000;
+}
+
+.heading h3{
+    margin-left: 130px;
+}
+.heading h1::first-letter {
+  font-size: 200%;
+  
+}
+li{
+    margin-top: 10px;
+}
+
+ ul li a {
+
+color: orange;
+}
+
+li a:hover{
+color: green;
+}
+
+footer{
+    font-size: 70%;
+    text-align: center;
+}
